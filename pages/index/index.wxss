@@ -1,0 +1,55 @@
+.getid {
+  margin-top: 90rpx;
+  padding: 0 80rpx;
+}
+
+.getid .title {
+  color: #222;
+  font-size: 44rpx;
+  font-weight: 600;
+}
+
+
+.getid .getid_id {
+  border: 1rpx solid #222;
+  border-radius: 50rpx;
+  display: flex;
+  justify-content: center;
+  margin-top: 90rpx;
+  padding: 20rpx 0;
+  text-align:center;
+}
+
+.getid .getid_id input {
+  color: #222;
+  font-size: 28rpx;
+  text-align: center;
+}
+
+.getid .getid_button  {
+  background-color: #222;
+  border-radius: 50rpx;
+  color: #fff;
+  font-size: 28rpx;
+  padding: 20rpx 0;
+}
+
+.getid .getid_button,.getid .getid_type {
+  display: flex;
+  justify-content: center;
+  margin-top: 20rpx;
+  width: 100%;
+}
+
+.getdata {
+  background-color: rgb(92, 90, 90);
+  border-radius: 20rpx;
+  color: #fff;
+  font-size: 28rpx;
+  padding: 20rpx 0;
+  text-align: center;
+  margin-top: 20rpx;
+  height: 100rpx;
+
+}
+

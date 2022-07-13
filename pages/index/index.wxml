@@ -1,0 +1,25 @@
+
+<view class="getid">
+    <view class="title">获取确认ID</view>
+    <view class="hint">随时随地获取</view>
+    <form bindsubmit='formSubmit'  bindreset='formReset'>
+      <view>
+        <view class="getid-from">
+          <!--ID-->
+          <view >
+            <input class="getid_id" name="id"  placeholder="请输入安装 ID" />
+          </view>
+          <view >
+            <button class="getid_button" catchtap="submit" type="primary" form-type='submit'>提交</button>
+            <button class="getid_button" type="primary" form-type='reset'>重置</button>
+          </view>
+          <view class="getdata">
+          <text class='url-txt' selectable='true'>{{postList}}</text>
+          </view>
+          <button  class="getid_button" bindtap='onClick'>复制确认ID</button>
+        </view>
+      </view>
+
+    </form>
+    
+</view>
